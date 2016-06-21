@@ -434,7 +434,7 @@ body {
   line-height: 1.5;
   color: #666;
   background: #fafafa url(../assets/body-bg.jpg) 0 0 repeat;
-  min-width: 480px;
+  min-width: 280px;
 }
 
 p {
@@ -481,8 +481,10 @@ header h2 {
 
 .logostuff
 {
-  height: 175px;
-  float: center;
+  padding: 0;
+  margin: 0;
+  max-height: 75%;
+  max-width: 75%;
 }
 
 .inner {
@@ -868,7 +870,7 @@ footer a:hover {
     border-top: solid 1px #ddd;
   }
   aside#sidebar a.button {
-    display: none;
+    display: block;
   }
   #main-content h1:before,
   #main-content h2:before,
