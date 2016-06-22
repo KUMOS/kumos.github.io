@@ -507,7 +507,13 @@ header h2 {
 }
 
 #main-content img {
+  display: block;
+  margin: 0 auto;
+  padding: 10 0 10 0;
   max-width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
 }
 
 aside#sidebar {
