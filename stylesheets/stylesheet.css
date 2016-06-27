@@ -434,7 +434,7 @@ body {
   line-height: 1.5;
   color: #666;
   background: #fafafa url(../assets/body-bg.jpg) 0 0 repeat;
-  min-width: 480px;
+  min-width: 280px;
 }
 
 p {
@@ -454,7 +454,7 @@ header {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   background: #2e7bcf url(../assets/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
-  min-width: 480px;
+  min-width: 280px;
 }
 
 header h1 {
@@ -489,7 +489,7 @@ header h2 {
 
 .inner {
   position: relative;
-  min-width: 480px;
+  min-width: 280px;
   max-width: 940px;
   margin: 0 auto;
 }
